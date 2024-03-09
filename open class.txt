@@ -1,0 +1,8 @@
+class Car():
+  def __init__(self,model,year):
+    self._model=model 
+    self._year= year
+  def __repr__(self):
+   return self._model +" It made's in "+ self._year
+car1=Car("BMW M3","2015")   
+print(car1)
