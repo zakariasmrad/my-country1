@@ -1,0 +1,121 @@
+body{
+    background-image: url(leba.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+h1{
+    font-family: cursive;
+    color: black; 
+}
+ul{
+    background-color: rgba(248, 248, 249, 0.4);
+    font-size: 24px;
+}
+ol{
+    background-color: rgba(248, 248, 249, 0.4);
+    width: fit-content;
+}
+#yout{
+    position: relative;
+   border-radius: 20px;
+   margin-left: 340px;
+}
+#goog{
+    position: relative;
+    border-radius: 20px;
+    margin-left: 340px;
+
+}
+#ul{
+    width: fit-content;
+    padding: 20px;
+}
+a{
+    background-color: rgba(0, 0, 0, 0.272);
+    width: fit-content;
+    font-size: 24px;
+    text-align: center;
+}
+a:hover{
+  background-color: black;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+p{
+    font-family: cursive;
+    color: black; 
+    font-size: larger;
+    background-color: rgba(240, 255, 255, 0.667);
+    width: fit-content;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+p:hover{
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 5px;
+}
+h2{
+    font-family: cursive;
+    color: black; 
+}
+nav ul{
+    background-color: rgba(8, 92, 248, 0.596);
+    border-style: solid;
+    border-color: mediumvioletred;
+    border-width: 2px;
+    font-size: 24px;
+    word-spacing: 20px;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    word-spacing: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px;
+}
+#preloader{
+    background: #000 url(preloader\ \(2\).gif) no-repeat center center;
+    background-size: 20%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#leb{
+    position: relative;
+    border-radius: 20px;
+    margin-left: 340px;
+    width: 700px;
+    height: 500px;
+}
+#about{
+    color: white;
+}
+@keyframes color-change {
+    0%{ color: white;}
+    16% { color: rgb(0, 0, 0); }
+    32% { color: rgb(132, 132, 148); }
+    48%{ color: rgb(165, 155, 97);}
+    64%{ color: rgb(199, 136, 136);}
+    80%{ color: rgb(121, 49, 49);}
+    100% { color: rgb(255, 255, 255); }
+  }

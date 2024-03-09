@@ -1,0 +1,55 @@
+name: zakaria said el mourad 
+-->Ex1:
+the right answer is B
+the right answer is A
+-->Ex2:
+Balbasaur
+f"Grass type pokemon name is Bulbasaur
+Fire
+f"Pokemon name is Charizard and type is Fire
+-->Ex3:
+Sally
+-->Ex4:
+class Employee:
+  def __init__(self,firstname,lastname,salary):
+    self._firstname=firstname
+    self._lastname=lastname
+    self._salary=salary
+  @property
+  def firstname(self):
+   return self._firstname
+  @property
+  def lastname(self):
+   return self._lastname
+  @property
+  def salary(self):
+   return self._salary
+  @firstname.setter
+  def firstname(self,firstname):
+   return self._firstname
+  @lastname.setter
+  def lastname(self,lastname):
+    return self._lastname
+  def the_salary(self):
+    return(self._firstname,self._lastname ," earns",self._salary,"each month")
+emp1=Employee("zak","mr",2000)
+print(emp1.firstname) 
+print(emp1.the_salary())
+print(emp1.salary)
+-->Ex5:
+class Person:
+  def __init__(self,name,likes,hates):
+    self._name=name
+    self._likes=["burger","pizza","friuts"]
+    self._hates=["vegetebales","fish","icecream"]
+  def taste(self,food):
+    if food in self._likes:
+      return(self._name+" eats "+food+" and likes it!")
+    if food in self._hates:
+      return(self._name+" eats "+food+" and hates it!")
+    else:
+      return(self._name+" eats "+food+"!")
+p1=Person("Zak",["icecream"],["pizza"])
+print(p1.taste("icecream"))
+print(p1.taste("pizza"))
+print(p1.taste("cheese"))

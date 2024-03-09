@@ -1,0 +1,79 @@
+nav ul{
+    background-color: rgba(8, 92, 248, 0.596);
+    border-style: solid;
+    border-color: mediumvioletred;
+    border-width: 2px;
+    font-size: 24px;
+    word-spacing: 20px;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    word-spacing: 30px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px;
+}
+#preloader{
+    background: #000 url(preloader\ \(2\).gif) no-repeat center center;
+    background-size: 20%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+table, th, td {
+    border: 1px solid black;
+    color: black;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: #000;
+  }
+table{
+    margin-left: 440px;
+    background-image: url(lebver.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}  
+body{
+    background-image: url(cedar.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+img{
+    width: 300px;
+    height: 250px;
+    border-radius: 40px;
+}
+li{
+    text-decoration: none;
+}
+@keyframes color-change {
+    0%{ color: white;}
+    16% { color: rgb(0, 0, 0); }
+    32% { color: rgb(132, 132, 148); }
+    48%{ color: rgb(165, 155, 97);}
+    64%{ color: rgb(199, 136, 136);}
+    80%{ color: rgb(121, 49, 49);}
+    100% { color: rgb(255, 255, 255); }
+  }
