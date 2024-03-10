@@ -48,6 +48,7 @@ table, th, td {
     text-shadow: #000;
   }
 table{
+    position:relative;
     margin-left: 440px;
     background-image: url(lebver.png);
     background-repeat: no-repeat;
